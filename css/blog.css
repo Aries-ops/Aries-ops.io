@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(0,193,222);
+    font-size:13px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#424242;
+}
+#box{
+    width:100%;
+    background-color:black;
+    border-top:10px solid transparent;
+}
+#box .nav{
+    width:1200px;
+    /* height:60px; */
+    margin:0 auto;
+    padding:5px 0;
+}
+#box .nav::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+#box h1,
+#box .list{
+    float:left;
+}
+#box h1 a{
+    color:rgba(255, 255, 255,.8);
+    line-height:50px;
+    padding-left:20px;
+    font-size:26px;
+}
+#box .list{
+    margin-left:70px;
+}
+#box .list li{
+    float:left;
+    margin-left:40px;
+}
+#box .list li a{
+    line-height:50px;
+    padding:0 10px;
+    color:rgb(255, 255, 255);
+}
+#box .list li #selected{
+    color:#00c1de;
+}
+#box .list li a:hover{
+    color:#00c1de;
+}
+#box .bome{
+    float:right;
+}
+#box .bome a{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background-color:#00c1de;
+    border-radius:50%;
+}
+#nome{
+    width:100%;
+}
+#nome .chan{
+    width:1200px;
+    height:400px;
+    background-color:#01ffea;
+    margin:0 auto;
+}
